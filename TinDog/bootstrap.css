@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.tittle{
+	    background-color: pink;
+	    color: white;
+    }
+
+h1{
+  font-family: 'Russo One', sans-serif;
+	font-weight: bold;
+}
+h2{
+font-family: 'Permanent Marker', cursive;
+font-weight: bolder;
+}
+
+.container{
+	padding: 3% 14%;
+
+}
+.text {
+	margin-top:40px;
+	color: white;
+	margin-left: 4rem;
+
+
+}
+h3{
+	font-family: 'Russo One', sans-serif;
+	font-weight: bold;
+}
+p{
+	color: gray;
+}
+/*Navigation bar*/
+
+.navbar-brand{
+font-family: 'Permanent Marker', cursive;
+	font-size: 3rem;
+   font-weight: bolder;
+   left: 60px;
+   position: relative;
+}
+
+
+.nav-item {
+	padding: 0 30px;
+}
+.navbar{
+	padding: 0 0 7.5rem;
+	margin-bottom: 40px;
+}
+
+.download-button{
+	margin: 5%  3% 5% 0%;
+}
+.tittle-img{
+	width: 19.9%;
+	
+	position: absolute;
+	left: 60%;
+}
+
+#features{
+	padding: 9% 15%;
+	position: relative;
+	z-index: 1; 
+}
+.featurebox {
+	text-align: center;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+
+/*Testomanio section*/
+#Testomanio{
+	background-color: pink;
+	text-align: center;
+
+   color: white;	
+}
+.Testomanio-image{
+	border-radius: 100%;
+	width: 50%;
+	margin: 10px;
+}
+.carousel-item{
+		padding: 7% 14%;
+}
+/*press images*/
+#press{
+	background-color: pink;
+	text-align: center;
+	padding-bottom: 3%;
+	margin-top: 10px;
+}
+#pricing{
+	padding: 120px;
+	text-align: center;
+}
+.pricing-colum{
+padding: 3% 3%;
+}
+
+#cta{
+	background-color: pink;
+		color: white;
+	padding: 7% 15%;
+	text-align: center;
+	position: relative;
+}
+.headingcta{
+font-family: 'Russo One', sans-serif;
+font-weight: bolder;
+font-size: 2rem;
+line-height: 2;
+}
+
+/*footer section*/
+#footer{
+	padding: 7% 15%;
+	text-align: center;
+}
+.socialicon{
+margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+	.tittle-img{
+		position: static;
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	}
+}
